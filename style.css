@@ -7,12 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 header {
-    background-color: #333;
+    background-color: #400664;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -49,7 +49,11 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 130px 20px 40px 50px;
-
+    background-image: url(2.webp);
+    background-position: center 100%;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    gap: 20px;
 }
 
 .leftside {
@@ -80,20 +84,24 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #400664;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-footer p {
-    font-size: 16px;
+footer  {
+    font-size: 14px;
     display: flex;
-    justify-content: end;
-    padding-right: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+footer p{
+    padding-left: 720px;
 }
 
 footer a:hover {
